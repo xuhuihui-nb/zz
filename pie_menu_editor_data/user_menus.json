@@ -2465,8 +2465,8 @@
     "auto_tag_on_add": false,
     "cache_scripts": true,
     "panel_info_visibility": [
-      "CLASS",
-      "NAME"
+      "NAME",
+      "CLASS"
     ],
     "show_pm_title": true,
     "restore_mouse_pos": false,

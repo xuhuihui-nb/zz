@@ -3706,8 +3706,14 @@ class PMEPreferences(bpy.types.PropertyGroup):
             with open(os.path.join(backup_folder_path, backups[-1])) as f:
                 last_data = f.read()
 
-        data = self.get_export_data()
-        data = json.dumps(data, indent=2, separators=(", ", ": "))
+        export_data = self.get_export_data()
+        if not export_data or not isinstance(export_data, dict) or not export_data.get("menus"):
+            DBG_INIT and logi("No valid menus to backup")
+            if operator:
+                bpy.ops.pme.message_box(title="Backup Menus", message="No valid menus to backup")
+            return
+
+        data = json.dumps(export_data, indent=2, separators=(", ", ": "))
         if not data or last_data and last_data == data:
             DBG_INIT and logi("No changes")
             if operator:
@@ -4008,13 +4014,13 @@ def register():
     pr = get_prefs()
     pr.tree.lock()
     pr.init_menus()
-    if pr.auto_backup:
-        pr.backup_menus()
-
     pr.ed('DIALOG').update_default_pmi_data()
 
     tpr = temp_prefs()
     tpr.init_tags()
+
+    if pr.auto_backup:
+        pr.backup_menus()
 
     # TODO: 'prefs' will be migrated to 'get_prefs' in the future.
     # Kept for now to support user setup and external scripts.
