@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+
+id = "GrabDoc"
+version = "2.0.2"
+name = "纹理烘焙场景"
+tagline = "A trim & tileable baker for Blender"
+maintainer = "Ethan Simon-Law <ethan.simon.3d@gmail.com>"
+type = "add-on"
+
+website = "https://github.com/oRazeD/GrabDoc"
+
+tags = ["3D View", "Material", "Bake", "Compositing", "Render", "Import-Export"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+[permissions]
+files = "read:write"

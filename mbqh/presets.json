@@ -1,0 +1,150 @@
+{
+    "windows_layout": [
+        {
+            "x": 0,
+            "y": 40,
+            "width": 2560,
+            "height": 1377,
+            "areas": [
+                {
+                    "type": "OUTLINER",
+                    "x": 2130,
+                    "y": 834,
+                    "width": 428,
+                    "height": 512
+                },
+                {
+                    "type": "VIEW_3D",
+                    "x": 2,
+                    "y": 118,
+                    "width": 2125,
+                    "height": 1228
+                },
+                {
+                    "type": "TIMELINE",
+                    "x": 2,
+                    "y": 27,
+                    "width": 2125,
+                    "height": 88
+                },
+                {
+                    "type": "PROPERTIES",
+                    "x": 2130,
+                    "y": 27,
+                    "width": 428,
+                    "height": 804
+                }
+            ]
+        },
+        {
+            "x": 64,
+            "y": 109,
+            "width": 2432,
+            "height": 1239,
+            "areas": [
+                {
+                    "type": "VIEW_3D",
+                    "x": 0,
+                    "y": 0,
+                    "width": 2432,
+                    "height": 1239
+                }
+            ]
+        }
+    ],
+    "windows": [
+        {
+            "x": 0,
+            "y": 40,
+            "width": 2560,
+            "height": 1377
+        },
+        {
+            "x": 771,
+            "y": 360,
+            "width": 713,
+            "height": 595
+        }
+    ],
+    "aux_windows": [
+        {
+            "x": 64,
+            "y": 109,
+            "width": 2432,
+            "height": 1239
+        }
+    ],
+    "window_layout": [
+        {
+            "x": -8,
+            "y": -8,
+            "width": 2576,
+            "height": 1408,
+            "hwnd": 1510546
+        }
+    ],
+    "VIEW_3D": {
+        "0": {
+            "preset_1": "ShaderNodeTree",
+            "preset_2": "GeometryNodeTree",
+            "preset_3": "UV",
+            "shortcut_key": "BUTTON5MOUSE",
+            "shortcut_ctrl": false,
+            "shortcut_shift": false,
+            "shortcut_alt": false
+        },
+        "1": {
+            "preset_1": "NONE",
+            "preset_2": "NONE",
+            "preset_3": "NONE",
+            "shortcut_key": "BUTTON4MOUSE",
+            "shortcut_ctrl": false,
+            "shortcut_shift": false,
+            "shortcut_alt": false
+        }
+    },
+    "ASSETS": {
+        "0": {
+            "preset_1": "IMAGE_EDITOR",
+            "preset_2": "NONE",
+            "preset_3": "NONE",
+            "shortcut_key": "BUTTON4MOUSE",
+            "shortcut_ctrl": false,
+            "shortcut_shift": false,
+            "shortcut_alt": false
+        }
+    },
+    "OUTLINER": {
+        "0": {
+            "preset_1": "NONE",
+            "preset_2": "NONE",
+            "preset_3": "NONE",
+            "shortcut_key": "BUTTON4MOUSE",
+            "shortcut_ctrl": false,
+            "shortcut_shift": false,
+            "shortcut_alt": false
+        }
+    },
+    "PROPERTIES": {
+        "0": {
+            "preset_1": "NONE",
+            "preset_2": "NONE",
+            "preset_3": "NONE",
+            "shortcut_key": "BUTTON4MOUSE",
+            "shortcut_ctrl": false,
+            "shortcut_shift": false,
+            "shortcut_alt": false
+        }
+    },
+    "TIMELINE": {
+        "0": {
+            "preset_1": "NONE",
+            "preset_2": "NONE",
+            "preset_3": "NONE",
+            "shortcut_key": "BUTTON4MOUSE",
+            "shortcut_ctrl": false,
+            "shortcut_shift": false,
+            "shortcut_alt": false
+        }
+    }
+}

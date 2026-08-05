@@ -1,0 +1,42 @@
+{
+  "rows_tabs": [
+    [
+      "RESTART",
+      "EXTRUDE",
+      "MBQH",
+      "SJQH",
+      "LOADER",
+      "ALIGN",
+      "LOOPTOOLS",
+      "USE_TRANS"
+    ],
+    [
+      "AUTO_REMESH",
+      "TP",
+      "DYTOPO",
+      "SLIDE_EDGE",
+      "LXXW"
+    ],
+    [
+      "SIMPLE_BAKE",
+      "TEXTURE_SCENE"
+    ],
+    [
+      "LIGHT"
+    ]
+  ],
+  "rows_names": [
+    "工具",
+    "建模",
+    "材质",
+    "布景"
+  ],
+  "rows_collapsed": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "last_active_tab": "DYTOPO",
+  "last_active_category_idx": 1
+}

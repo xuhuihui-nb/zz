@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/lewis/Data/**)",
+      "Read(//home/lewis/**)",
+      "Bash(grep -n \"memLimit\" **/*.py)",
+      "Bash(find . -type f \\\\\\( -name \"*.py\" -o -name \"*.html\" -o -name \"*.txt\" -o -name \"*.md\" \\\\\\) ! -path \"./.*\" -exec grep -l \"\\\\.testing\\\\b\\\\|sbp.testing\\\\|context.scene.SimpleBake_Props.testing\\\\|testing.*=\" {} \\\\;)"
+    ]
+  }
+}
